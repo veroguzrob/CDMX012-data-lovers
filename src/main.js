@@ -13,22 +13,21 @@ const selectionOrder = document.getElementById('alpha');
 
 //Funcion para crear las tarjetas
 const cardsLegends = (champions) => {
-  console.log (champions)
-  const championsCards = document.createElement('div');
-  champions.forEach (champion => {
-    const newCard = document.createElement('article');
-    const newcardBody = document.createElement('figure');
-    const newcardImage = document.createElement('img');
-    newcardImage.src = champion.splash
-    const newcardName = document.createElement('figcaption');
-    const newcardTitle = document.createElement('p');
-    const newcardInfo = document.createElement('div');
-    newcardName.textContent = champion.name
-    newcardTitle.textContent = champion.title
+    const championsCards = document.createElement('div');
+      champions.forEach (champion => {
+      const newCard = document.createElement('article');
+      const newcardBody = document.createElement('figure');
+      const newcardImage = document.createElement('img');
+      newcardImage.src = champion.splash
+      const newcardName = document.createElement('figcaption');
+      const newcardTitle = document.createElement('p');
+      const newcardInfo = document.createElement('div');
+      newcardName.textContent = champion.name
+      newcardTitle.textContent = champion.title
 
-    newcardName.className = "card-name";
-    newcardTitle.className = "card-name";
-    newcardInfo.className = "box-info"
+      newcardName.className = "card-name";
+      newcardTitle.className = "card-name";
+      newcardInfo.className = "box-info"
     
     championsCards.appendChild(newCard);
     newCard.appendChild(newcardBody);
@@ -48,23 +47,23 @@ selectionRoles.addEventListener('change', (e)=>{
     showCards.appendChild(cardsLegends(filterRole(all, e.target.value)))
   });
 
-//crear un botón que nos retorne todas las tarjetas
-const btnAll = document.getElementById('btnAll');
-btnAll.addEventListener('click', () => {
-  showCards.innerHTML = '';
-  showCards.appendChild(cardsLegends(all))
-});
-
 //evento para el ordenado
 selectionOrder.addEventListener('change', (e)=>{
   showCards.innerHTML = '';
   showCards.appendChild(cardsLegends(orderAlpha(all, e.target.value)))
-  });
+});
 
 ////////evento para el selector de dificultad que no funciona
 document.getElementById('difficulty').addEventListener('change', (e) => {
   showCards.innerHTML = '';
   showCards.appendChild(cardsLegends(filterDifficulty(all, e.target.value)))
+});
+
+//crear un botón que nos retorne todas las tarjetas
+const btnAll = document.getElementById('btnAll');
+btnAll.addEventListener('click', () => {
+  showCards.innerHTML = '';
+  showCards.appendChild(cardsLegends(all))
 });
 
 //Botón Toggle Responsive
