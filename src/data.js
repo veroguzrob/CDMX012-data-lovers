@@ -14,7 +14,7 @@ export const orderAlpha = (champions => {
 });
 
 //Saca la dificultad de todos los campeones 
-export const filterDifficulty= (champions) => {
+export const filterDifficulty= (champions, difficulty) => {
       let emptyLow = [];
       let emptyMed = [];
       let emptyHig = [];
@@ -30,8 +30,12 @@ export const filterDifficulty= (champions) => {
             emptyHig.push(champion);
          }
          });
-
-      return emptyHig
-
+         if (difficulty == 'low'){
+            return emptyLow
+         }else if (difficulty == 'media'){
+            return emptyMed
+         }else if (difficulty == 'high'){
+            return emptyHig
+         }
 };
 
