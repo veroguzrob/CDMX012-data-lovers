@@ -95,7 +95,7 @@ button {
     text-align: center;
     letter-spacing: 0.105em;
     text-transform: uppercase;
-    margin-left:7rem;
+    margin-left:5rem;
 }
 
 .htype {
@@ -264,7 +264,7 @@ footer figure p{
 
 .btnAll{
     cursor: pointer;
-    margin:0%;
+    margin:2rem ;
     width: 20rem;
     height: 4rem;
     border: 2px solid #98783C;
@@ -360,13 +360,13 @@ section h3 {
 @media screen and (max-width: 600px) {
 
     body {
-        margin:0%;
-        padding:0%;
+       
+        
         margin-top: 22rem;
     }
 
     header {
-        width:100%;
+       
         height: 20rem;
         top:0;
     }
@@ -427,23 +427,29 @@ section h3 {
         display:none;
     }
 
+.cardbox div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: 0%;
+    
+}
+
+article figure {
+    margin: 0%;
+}
 
    ul button {
         border: none;
         display: none;
     }
 
-
-
-    figure img {
+    footer {
         width: 100%;
-    
     }
-    
-    figure figcaption{
-        width:100%
-       
-    }
+
 
     footer figure {
         width:100%;
@@ -451,7 +457,7 @@ section h3 {
     }
 
     figure p {
-        font-size: .4rem;
+        font-size: 1rem;
     }
 
 }
