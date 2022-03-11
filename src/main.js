@@ -10,7 +10,6 @@ const selectionRoles = document.getElementById('roles');
 const selectionOrder = document.getElementById('alpha');
 const selectionTop = document.getElementById('stats')
  
-
 //Funcion para crear las tarjetas
 const cardsLegends = (champions) => {
     const championsCards = document.createElement('div');
@@ -24,18 +23,15 @@ const cardsLegends = (champions) => {
       const newcardInfo = document.createElement('div');
       newcardName.textContent = champion.name
       newcardTitle.textContent = champion.title
-
       newcardName.className = "card-name";
       newcardTitle.className = "card-name";
       newcardInfo.className = "box-info"
-    
-    championsCards.appendChild(newCard);
-    newCard.appendChild(newcardBody);
-    newcardBody.appendChild(newcardImage);
-    newcardBody.appendChild(newcardName);
-    newcardBody.appendChild(newcardTitle);
-    newcardBody.appendChild(newcardInfo);
-
+      championsCards.appendChild(newCard);
+      newCard.appendChild(newcardBody);
+      newcardBody.appendChild(newcardImage);
+      newcardBody.appendChild(newcardName);
+      newcardBody.appendChild(newcardTitle);
+      newcardBody.appendChild(newcardInfo);
  });
  return championsCards
 }
@@ -45,7 +41,7 @@ showCards.appendChild(cardsLegends(all))
 selectionRoles.addEventListener('change', (e)=>{
     showCards.innerHTML = '';
     showCards.appendChild(cardsLegends(filterRole(all, e.target.value)))
-  });
+});
 
 //evento para el ordenado
 selectionOrder.addEventListener('change', (e)=>{
