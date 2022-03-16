@@ -61,12 +61,12 @@ usuario necesita.
 
 ## 3. Imágenes de prototipo en papel
 
-insertar aquí fotos de prototipo en papel
+![Boceto](/src/img/proto-papel.jpg)
 
 ## 4. Prototipo en Alta Fidelidad
 
-Prototipo para Desktop
-Prototipo para dispositivos móviles
+![Prototipo para Desktop](/src/img/proto-desktop.jpg)
+![Prototipo para Dispositivos Móviles](/src/img/proto-movil.jpg)
 
 ## 5. UX Research
 
