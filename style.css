@@ -1,0 +1,464 @@
+html{
+    font-size: 13px;
+    line-height: 16px;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #071022;
+    font-family: BeaufortforLOL-Bold;
+    text-transform: uppercase;
+    padding: 0%;
+    margin: 0%;
+    margin-top: 30rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+header  {
+    background-image: url("img/img-header.jpg");
+    width:100%;
+    height: 25rem;
+    background-position: center;
+    top:0;
+    position:absolute;
+    
+}
+
+#logo img {
+    position: absolute;
+    width: 11rem;
+    left: 4rem;
+    top: 5rem;
+    float: left;
+}
+
+#riot img {
+    position: absolute;
+    width: 80px;
+    right: 5rem;
+    top: 6rem;
+    float: right;
+    margin:0%;
+}
+
+.navbar {
+    
+    padding-top: 6rem;
+
+}
+
+.navLinks ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navLinks li {
+    list-style:none;
+    padding-left: 2rem;
+}
+
+.navLinks li a {
+    color: #fff;
+    font-family: Mark Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1rem;
+    padding: 1rem;
+}
+
+.navLinks a:hover {
+    color:#98783C;
+}
+
+a {
+    color:#fff;
+    text-decoration: none;
+}
+
+button {
+    background: #111111;
+    border-radius: 1rem;
+    border-color: #111111;
+    padding: 1rem;
+    font-family: Mark Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1rem;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.105em;
+    text-transform: uppercase;
+    margin-left:5rem;
+}
+
+.htype {
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    color:#fff;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+}
+
+h2{
+    font-size: 4rem;
+    line-height: 4rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+h4{
+    color:#98783C;
+}
+
+h6{
+    color:#98783C;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: .8rem;
+    font-weight: 100;
+
+
+}
+
+p {
+    color:#fff;
+}
+
+.card-name div {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    
+}
+
+.cardback ul {
+    font-size: .8rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 1.5rem;
+}
+
+.cardback li {
+    text-decoration: none;
+    justify-content: center;
+}
+
+.cardbox div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.boxInfo {
+    margin:0%;
+    padding:0%;
+}
+
+figure {
+    margin:2rem;
+}
+
+section figure img {
+    width: 32rem;
+    border-style: solid;
+    border-color: #98783C;
+    border-width: 2px;
+}
+
+section figure figcaption{
+    background-color: #98783C;
+    width: 32rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    border-style: solid;
+    border-color: #98783C;
+    border-width: 2px;
+    color:#071022;
+    
+   
+}
+
+section figure p {
+    width: 32rem;
+    height: 3rem;
+    align-items: flex-start;
+    text-align: center;
+    font-size: 2rem;
+    border-style: solid;
+    border-color: #98783C;
+    border-width: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#98783C;
+    font-size: 1rem;
+    
+}
+
+.card-name {
+    margin-top: 0%;
+    padding-top: 0%;
+    padding-top: .5rem;
+    
+}
+
+footer{
+    background-color: #292929;
+    font-family: Mark Pro;
+    font-size: 1rem;
+    color: #fff;
+    margin: 0;
+    padding:0;  
+}
+
+h6{
+    text-align: center;
+    line-height: 1rem;
+    margin-top: 1rem;
+    padding-top: 2rem;
+    
+}
+
+footer figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    margin: 0;
+    padding: 3rem; 
+}
+
+footer figure img{
+    float: left;
+    width: 4.19rem;
+    height: 6rem;
+}
+
+footer figure p{
+    float: left;
+    margin-left: 1rem;
+    text-align: left;
+}
+
+.dropdown{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.btnAll{
+    cursor: pointer;
+    margin:2rem ;
+    width: 20rem;
+    height: 4rem;
+    border: 2px solid #98783C;
+    border-radius: 0%;
+    background: transparent;
+    color: #98783C;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: .8rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+
+
+select {
+    width: 20rem;
+    height: 4rem;
+    background: transparent;
+    background: url('img/icon-arrow.svg') no-repeat right;
+    -webkit-appearance: none;
+    background-position-x: 92%;
+    background-position-y: .8rem;
+    background-size: 2rem;
+    border: 2px solid #98783C;
+    box-sizing: border-box;
+    margin: 1rem;
+    color: #98783C;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: .8rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+  
+}
+
+section h3 {
+    text-align: center;
+    color: #fff;
+}
+
+.toggle-button {
+    position:absolute;
+    flex-direction: column;
+    right: 1rem;
+    display: none;
+    background-color: transparent;
+    background-image: url(img/icon-menu.svg);
+    border-width: 2px;
+    width: 4rem;
+    height: 4rem;
+    
+}
+
+@media screen and (max-width: 1000px) {
+
+    body {
+        margin:0%;
+        padding:0%;
+        margin-top: 27rem;
+    }
+
+    #logo img {
+        float: left;
+        width: 11rem;
+        top: 5rem;
+        
+    }
+    
+    #riot img {
+        width: 80px;
+        top: 5rem;
+        float: left;
+    }
+
+    nav {
+        padding-top: 9rem;
+    }
+
+    h1 {
+        margin-top: 2rem;
+        line-height: 4rem;
+    }
+
+    h3 {
+        line-height: 2rem;
+        margin: 1rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+       
+        
+        margin-top: 22rem;
+    }
+
+    header {
+       
+        height: 20rem;
+        top:0;
+    }
+
+    #riot img {
+        top: 3rem;
+        right: 7rem;
+    }
+
+    #logo img {
+        width: 11rem;
+        left: 2rem;
+        top: 2rem;   
+    }
+
+    header h1 {
+        margin: 0%;
+        padding-top: 9rem;
+        font-size: 3rem;
+        
+    }
+
+    header h3 {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    
+    .toggle-button{
+        display: flex;
+    }
+
+    nav {
+        background-color: #111;    
+        display: none;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar ul {
+        margin: 0%;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar li {
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+    }
+
+    nav.active {
+        display: flex;
+    }
+
+    .htype.active {
+        display:none;
+    }
+
+.cardbox div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: 0%;
+    
+}
+
+article figure {
+    margin: 0%;
+}
+
+   ul button {
+        border: none;
+        display: none;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+
+    footer figure {
+        width:100%;
+        padding:0;
+    }
+
+    figure p {
+        font-size: 1rem;
+    }
+
+}
+
